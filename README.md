@@ -50,7 +50,7 @@
       justify-content: center;
       position: sticky;
       top: 0;
-      width: 60%;
+      width: 40%;
       z-index: 1000;
       border-radius: 40px;
       margin: 0% auto;
