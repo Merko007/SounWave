@@ -11,7 +11,6 @@
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: 'Helvetica Neue', Arial, sans-serif;
       background-color: #f5f7fb;
@@ -19,7 +18,6 @@
       line-height: 1.6;
       padding: 0 20px;
     }
-
     .header {
       background: linear-gradient(to right,  #efc100, #000000);
       color: white;
@@ -28,7 +26,6 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
       border-radius: 0 0 20px 20px;
     }
-
     .header h1 {
       font-size: 48px;
       letter-spacing: 1px;
@@ -36,13 +33,11 @@
       font-weight: bold;
       animation: fadeIn 2s;
     }
-
     .header p {
       font-size: 18px;
       font-weight: 300;
       color: #f4f4f4;
     }
-
     .menu-bar {
       background: #856b00;
       padding: 5px 0;
@@ -56,7 +51,6 @@
       margin: 0% auto;
       margin-top:20px;
     }
-
     .menu-bar a {
       color: white;
       font-size: 20px;
@@ -66,13 +60,11 @@
       margin: 0 15px;
       transition: background-color 0.3s ease;
     }
-
     .menu-bar a:hover {
       background-color: #ff6600;
       border-radius: 10px;
       transform: scale(1.1);
     }
-
     .product-container {
       background-color: white;
       padding: 40px;
@@ -80,7 +72,6 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
       margin-top: 20px;
     }
-
     .price-box {
       background-color: #000000;
       width: 30%;
@@ -91,13 +82,11 @@
       box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
     }
-
     .price-box h2 {
       font-size: 36px;
       font-weight: bold;
       color: #ffbc62;
     }
-
     .price-box .price {
       font-size: 42px;
       color: #ffffff;
@@ -107,7 +96,6 @@
          text-decoration: line-through;
          color:white;
     }
-
     .buy-button {
       background-color: #ff0000;
       color: white;
@@ -120,23 +108,19 @@
       display: inline-block;
       margin-top: 15px;
     }
-
     .buy-button:hover {
       background-color: #cc5200;
       transform: scale(1.1);
     }
-
     .specs {
       margin-top: 60px;
     }
-
     .specs h2 {
       text-align: center;
       font-size: 32px;
       margin-bottom: 40px;
       font-weight: 500;
     }
-
     .spec-boxes {
       display: flex;
       flex-wrap: wrap;
@@ -144,7 +128,6 @@
       gap: 40px;
       animation: fadeIn 1s ease-out;
     }
-
     .spec-box {
       background-color: #f0f0f0;
       border-radius: 8%;
@@ -165,22 +148,18 @@
     .left {
      text-align: left;
     }
-
     .spec-box img {
       width: 100%;
       border-radius: 12px;
       margin-bottom: 20px;
       transition: transform 0.3s ease;
     }
-
     .spec-box:hover {
       transform: translateY(-10px);
     }
-
     .spec-box img:hover {
       transform: scale(1.05);
     }
-
     .custom-img {
       width: 300px;
       height: auto;
@@ -188,19 +167,16 @@
       margin: 0 auto 20px auto;
       border-radius: 12px;
     }
-
     .spec-box ul {
       list-style: none;
       padding: 0;
     }
-
     .spec-box ul li {
       font-size: 16px;
       margin: 10px 0;
       color: #555;
       text-align: center;
     }
-
     footer {
       background: #222;
       color: white;
@@ -209,27 +185,22 @@
       margin-top: 80px;
       border-radius: 12px;
     }
-
     footer h3 {
       font-size: 28px;
       margin-bottom: 15px;
     }
-
     footer p {
       font-size: 14px;
       color: #aaa;
     }
-
     .contact-info {
       margin-top: 30px;
     }
-
     .contact-info a {
       color: #00aaff;
       text-decoration: none;
       font-weight: bold;
     }
-
     .service-table-full {
   width: 100%;
   border-collapse: collapse;
@@ -260,38 +231,30 @@
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
-
-
     /* Responzívne dizajnové zmeny */
     @media (max-width: 768px) {
       .menu-bar {
         width: 100%;
         margin-top: 0;
       }
-
       .price-box {
         width: 80%;
       }
-
       .spec-boxes {
         flex-direction: column;
         align-items: center;
       }
-
       .spec-box {
         width: 80%;
         margin-bottom: 20px;
       }
-
       .buy-button {
         width: 100%;
       }
-
       footer {
         padding: 20px;
       }
     }
-
     @keyframes fadeIn {
       0% {
         opacity: 0;
@@ -306,12 +269,10 @@
   </style>
 </head>
 <body>
-
     <div class="header" id="info">
       <h1>SoundWave</h1>
       <p>Ozvučenie, ktoré cítiš</p>
     </div>
-  
     <nav class="menu-bar">
       <a href="#info">Domov</a>
       <a href="#features">Naše služby</a>
@@ -319,7 +280,6 @@
       <a href="#gallery">Galéria</a>
       <a href="#buy">Kontaktuj nás</a>
     </nav>
-  
     <div class="specs" id="features">
       <h2>Naše služby</h2>
       <div class="spec-boxes">
@@ -365,8 +325,6 @@
         </div>
       </div>
     </div>
-
-
     <div class="specs"; id="specs">
       <h2>O našej firme</h2>
       <div class="spec-boxes">
@@ -398,7 +356,6 @@
         </div>
       </div>
     </div>
-
     <div style="margin-top:50px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
   
     <!-- Kupón -->
@@ -415,7 +372,6 @@
     <table class="service-table-full">
       <thead>
         <tr>
-          
           <th>Názov služby</th>
           <th>Popis</th>
           <th>Cena</th>
@@ -423,37 +379,31 @@
       </thead>
       <tbody>
         <tr>
-          
           <td>Ozvučenie koncertu</td>
           <td>Profesionálny zvukový systém</td>
           <td>od 150 €</td>
         </tr>
         <tr>
-          
           <td>Technická podpora</td>
           <td>Prítomnosť technika na akcii</td>
           <td>od 50 €</td>
         </tr>
         <tr>
-          
           <td>Videostream</td>
           <td>Živé vysielanie z podujatia</td>
           <td>dohodou</td>
         </tr>
         <tr>
-         
           <td>Osvetlenie pódia</td>
           <td>Farebné LED osvetlenie</td>
           <td>od 80 €</td>
         </tr>
         <tr>
-         
           <td>DJ set + technika</td>
           <td>DJ + kompletná technika</td>
           <td>od 120 €</td>
         </tr>
         <tr>
-          
           <td>Kompletný balík</td>
           <td>Všetky služby naraz</td>
           <td>dohodou</td>
@@ -462,9 +412,6 @@
     </table>
   </div>
 </div>
-    
-    
-
     <footer>
       <h3>Kontaktuj SoundWave</h3>
       <div class="contact-info"; id="buy">
